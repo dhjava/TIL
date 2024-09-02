@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MyApp/MyApp.iml" filepath="$PROJECT_DIR$/MyApp/MyApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/Programing/Programing.iml" filepath="$PROJECT_DIR$/Programing/Programing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProjectMethod/ProjectMethod.iml" filepath="$PROJECT_DIR$/ProjectMethod/ProjectMethod.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Study.iml" filepath="$PROJECT_DIR$/.idea/Study.iml" />
       <module fileurl="file://$PROJECT_DIR$/codingStudy/codingStudy.iml" filepath="$PROJECT_DIR$/codingStudy/codingStudy.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-flow-control/java-flow-control.iml" filepath="$PROJECT_DIR$/java-flow-control/java-flow-control.iml" />
