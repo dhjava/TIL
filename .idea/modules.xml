@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MyApp/MyApp.iml" filepath="$PROJECT_DIR$/MyApp/MyApp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Programing/Programing.iml" filepath="$PROJECT_DIR$/Programing/Programing.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ProjectMethod/ProjectMethod.iml" filepath="$PROJECT_DIR$/ProjectMethod/ProjectMethod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Inheritance/Inheritance.iml" filepath="$PROJECT_DIR$/Inheritance/Inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaStudy/MyApp/MyApp.iml" filepath="$PROJECT_DIR$/JavaStudy/MyApp/MyApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaStudy/Programing/Programing.iml" filepath="$PROJECT_DIR$/JavaStudy/Programing/Programing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaStudy/ProjectMethod/ProjectMethod.iml" filepath="$PROJECT_DIR$/JavaStudy/ProjectMethod/ProjectMethod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaStudy/ProjectOOP/ProjectOOP.iml" filepath="$PROJECT_DIR$/JavaStudy/ProjectOOP/ProjectOOP.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Study.iml" filepath="$PROJECT_DIR$/.idea/Study.iml" />
-      <module fileurl="file://$PROJECT_DIR$/codingStudy/codingStudy.iml" filepath="$PROJECT_DIR$/codingStudy/codingStudy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java-flow-control/java-flow-control.iml" filepath="$PROJECT_DIR$/java-flow-control/java-flow-control.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaStudy/codingStudy/codingStudy.iml" filepath="$PROJECT_DIR$/JavaStudy/codingStudy/codingStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaStudy/java-flow-control/java-flow-control.iml" filepath="$PROJECT_DIR$/JavaStudy/java-flow-control/java-flow-control.iml" />
     </modules>
   </component>
 </project>
