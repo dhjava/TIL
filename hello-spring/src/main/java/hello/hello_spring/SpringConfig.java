@@ -14,7 +14,6 @@ import javax.sql.DataSource;
 public class SpringConfig {
 
     private final DataSource dataSource;
-
     public SpringConfig(DataSource dataSource) {
         this.dataSource = dataSource;
     }
@@ -29,6 +28,7 @@ public class SpringConfig {
     public MemberRepository memberRepository(){
 //        return new MemoryMemberRepository(); // 인터페이스가 아닌 구현체를 불러와야함.
 //        return new JdbcMemberRepository(dataSource);
+
         return new JdbcTemplateMemberRepository(dataSource);
     }
 }

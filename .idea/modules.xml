@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Algorithm/Algorithm.iml" filepath="$PROJECT_DIR$/Algorithm/Algorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaStudy/Inheritance/Inheritance.iml" filepath="$PROJECT_DIR$/JavaStudy/Inheritance/Inheritance.iml" />
       <module fileurl="file://$PROJECT_DIR$/InterfaceApp/InterfaceApp.iml" filepath="$PROJECT_DIR$/InterfaceApp/InterfaceApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaStudy/MyApp/MyApp.iml" filepath="$PROJECT_DIR$/JavaStudy/MyApp/MyApp.iml" />
