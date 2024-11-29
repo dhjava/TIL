@@ -8,16 +8,16 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class MemberApp {
-
     public static void main(String[] args) {
+
 //        AppConfig appConfig = new AppConfig();
-//        MemberService memberService = appConfig.memberService();
-//        MemberService memberService = new MemberServiceImpl();
+//        MemberService memberService = appConfig.memberService(); // AppConfig에서 결정
+        // MemberService memberService = new MemberServiceImpl(); <- Impl에서 직접 결정
 
         ApplicationContext applicationContext = new AnnotationConfigApplicationContext(AppConfig.class);
         MemberService memberService = applicationContext.getBean("memberService", MemberService.class);
 
-        Member member = new Member(1L, "memberA", Grade.VIP);
+        Member member = new Member(1L, "MemberA", Grade.VIP);
         memberService.join(member);
 
         Member findMember = memberService.findMember(1L);

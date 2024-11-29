@@ -16,16 +16,16 @@ public class MemberServiceTest {
     }
 
     @Test
-    void join(){
-        // given
+    void join() {
+        //given
         Member member = new Member(1L, "memberA", Grade.VIP);
 
-        // when
+        //when
         memberService.join(member);
         Member findMember = memberService.findMember(1L);
 
-        // then
-        Assertions.assertThat(member).isEqualTo(findMember); // 검증 API
+        //then
+        Assertions.assertThat(member).isEqualTo(findMember);
 
     }
 }
